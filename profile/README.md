@@ -1,4 +1,4 @@
-## Quick start
+## Quick start - More info at [go-srvc.com](https://go-srvc.com)
 
 ```go
 package main
@@ -27,4 +27,3 @@ func hello(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprint(w, "hello, world")
 }
 ```
-## More info at [go-srvc.com](https://go-srvc.com)
