@@ -12,7 +12,6 @@ A small ecosystem for composing long-running Go services with a clean lifecycle.
 |---|---|
 | [`srvc`](https://github.com/go-srvc/srvc) | The runner. One small `Module` interface (`ID`, `Init`, `Run`, `Stop`). Standard library only. |
 | [`mods`](https://github.com/go-srvc/mods) | Ready-made modules: `httpmod`, `logmod`, `metermod`, `sigmod`, `sqlmod`, `sqlxmod`, `tickermod`, `tracemod`. |
-| [`website`](https://github.com/go-srvc/website) | Source for [go-srvc.com](https://go-srvc.com): docs extracted from each tagged release. |
 
 ## Why srvc
 
